@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>InternetOfThings&Healthcare</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+header {
+
+	background-image: url("background.png")
+}
+
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-light-blue w3-text-white">Home</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+
+<header class=" w3-background-image w3-container w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo w3-text-black"><b>Internet of Things & Healthcare</b></h1>
+  <p class="w3-xlarge w3-text-light-black"><b>La soledad es uno de los mayores problemas 
+  a los que se enfrenta nuestra sociedad, se estima que en España 
+  hay alrededor de 5 millones de personas viviendo solas. 
+  Las personas que viven aisladas, son más proclives a desarrollar enfermedades psicológicas y además, 
+  al vivir aisladas es más difícil hacer un seguimiento de patologías ya existentes. 
+  Por ello IoT “Internet of things” es una solución a este problema</b>
+  </p>
+</header>
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 class="w3-text-light-blue"><b>¿Qué es exactamente IoT?</b></h1>
+      <p class="w3-text-light-blue">El IoT nos permite acceder a información previamente no disponible gracias a la 
+	  constante monitorización mediante sensores. Estos sensores envían información a un sensor “base” que se 
+	  encargara de procesar y analizar la información. IoT dispone de muchos protocolos que permiten un despliegue 
+	  amplio de sensores con los que poder acceder a esta información, como por ejemplo protocolos RFID, bluetooth, 
+	  también redes privadas como Sigfox,….</p>
+    </div>
+
+    <div class="w3-third w3-center">
+	  <img src="1.png">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-blue w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+     <img src="8.png">
+	 <img src="2.png">
+    </div>
+
+    <div class="w3-twothird">
+      <h1 class="w3-text-white"><b>¿Como hacer uso del Iot para monitorizar la salud?</b></h1>
+      <p class="w3-text-white">IoT nos permitirá combatir los problemas que se dan al vivir en soledad 
+	  ofreciendo un servicio personalizado. Con este servicio podríamos consultar información en tiempo 
+	  real y se podría realizar una atención sanitaria preventiva. El IoT también es una tecnología en 
+	  desarrollo que puede combinarse con otras competencias como Inteligencia Artificial. Al combinarse 
+	  y tener acceso a una gran base de datos gracias a la información que envían los sensores a nuestra 
+	  base central, podrían realizarse diagnósticos cada vez más precisos. Por no mencionar que permitiría 
+	  la mejora la gestión de pacientes en hospitales, centros de salud, etc.
+	  </p>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 class="w3-text-light-blue"><b>Aplicaciones de IoT en la salud:</b></h1>
+      <p class="w3-text-light-blue">
+	  <ul class="w3-ul w3-text-light-blue">
+		<li>Una de las aplicaciones más importantes es la de la monitorización de la frecuencia cardiaca.
+		Visitas no periódicas al medico pueden no detectar algún problema, y aparatos convencionales como smartwatches 
+		pueden fallar o no detectar el problema/emergencia con antelación suficiente.
+		Hoy en día, si queremos una correcta monitorización, los pacientes necesitan 
+		estar conectados a maquinas y sin poder moverse, por lo que mediante IoT queremos poder monitorizar a los 
+		pacientes sin que tengan estas restricciones.</li>
+		<li>Otra aplicación importante es el control de la glucosa.
+		Alrededor de 3 millones de personas son diabéticas en España. El control de esta no es algo fácil, y al igual que 
+		con los problemas de corazón, chequeos no periódicos pueden no detectar un problema grave.
+		Las personas diabéticas, en general, tienen dificultad para seguir las dietas y tener un estilo de vida adecuado. 
+		Por ello, una monitorización continua y automática de los niveles de glucosa ayuda a la actuación ante emergencias.</li>
+		<li>Una de las aplicaciones que esta ya más implementada (sobre todo en hospitales), es la monitorización de la higiene, 
+		especialmente la de las manos.
+		Para las personas que viven solas mantener una higiene adecuada puede ser una tarea difícil, por lo que tener un dispositivo 
+		que te monitorice y te pueda facilitar información sobre cómo hacerlo adecuadamente sería de gran ayuda.</li>
+		<li>Saber cuando una persona esta desarrollando depresión o enfermedades similares es una tarea difícil, 
+		ya que estas pueden aparecer momentáneamente o en momentos inesperados.
+		Mediante IoT, se puede analizar datos como la frecuencia cardiaca o tensión arterial para saber el estado
+		mental de las personas. Algunos dispositivos avanzados de IoT también pueden analizar datos desde el movimiento 
+		de los ojos de la persona hasta cambios en sus rutinas para saber si esta desarrollando algún tipo de enfermedad. 
+		Aunque estos datos sirven para establecer medidas preventivas pero no proporcionan un diagnostico final. Para obtener 
+		dicho diagnostico habría que consultar a un profesional.</li>
+		</ul>
+	  </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <img src="3.png">
+	  <img src="4.png">
+	  <img src="5.png">
+	  <img src="7.png">
+    </div>
+  </div>
+</div>
+
+
+<div class="w3-container w3-light-blue w3-center w3-padding-64">
+	<h1 class="w3-margin w3-text-white"><b>Futuro del Internet of Things:</b></h1>
+	<p class="w3-text-white">El futuro del IoT esta estrechamente relacionado con la inteligencia artificial. 
+	Mediante sistemas basados ​​en inteligencia artificial se pueden diagnosticar enfermedades como la diabetes, las 
+	enfermedades cardiovasculares o el glaucoma mediante la observación de la retina. Asimismo, la IA también ha demostrado 
+	ser de gran utilidad en la detección de tumores como el cáncer de mama o de próstata, donde los nuevos métodos de diagnóstico 
+	han demostrado ser muy efectivos. Por ello combinar la inteligencia artificial con el IoT que proporciona un tratamiento más 
+	personalizado cambiara por completo el mundo de la medicina y todos los aspectos de nuestro día a día.</p>
+	
+</div>
+</body>
+</html>
